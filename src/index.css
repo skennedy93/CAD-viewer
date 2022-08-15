@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button-basic {
+  text-align: center;
+  line-height: 1;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: none !important;
+  padding: 11px 18px 13px;
+  cursor: pointer;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid #043B91;
+  height: 170px;
+  width: 200px;
+}
+
+.cad-buttons{
+  display:flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.ame-image-1{
+  width:350px
+}
+.ame-image-2{
+  width:100px
+}
+.divider{
+  font-size: 50px;
+  color: white;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.iframe-viewer{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.view-container{
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.view-container-home{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+  padding-top: 60px;
+}
+.navbar{
+  background-image: linear-gradient(black, #13184f);
+  display:flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.footer{
+  background-image: linear-gradient(to right, rgb(255, 204, 0) , rgb(255, 123, 0));
+  display:flex;
+  justify-content: center;
+}
+.footer-button{
+  border: 2px solid #13184f;
+  color: #13184f;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
